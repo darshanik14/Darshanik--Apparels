@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darshanik Apparels — B2B Apparel Manufacturing | Tirupur</title>
+  <meta name="description" content="Darshanik Apparels — Premium B2B apparel manufacturing in Tirupur. Export-quality garments, custom solutions, and bulk production for international and domestic buyers.">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <meta name="theme-color" content="#059669">
+
+  <style>
+    :root{
+      --primary:#059669; /* manufacturing green */
+      --alt:#EA580C;    /* bright orange */
+      --accent:#D97706; /* energetic yellow */
+      --bg:#F3F4F6;
+      --text:#1F2937;
+      --radius:12px;
+      --container-max:1200px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:var(--text); background:var(--bg); margin:0}
+    a{color:var(--primary)}
+
+    /* NAVBAR */
+    .navbar{background:#fff;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .navbar-brand{font-family:Poppins, sans-serif;font-weight:700;color:var(--primary)}
+    .nav-link{color:var(--text)!important}
+    .btn-cta{background:linear-gradient(90deg,var(--alt),var(--accent));color:#fff;border:0;border-radius:10px;padding:10px 18px}
+
+    /* HERO */
+    .hero{background:linear-gradient(180deg, rgba(5,150,105,0.06), rgba(234,88,12,0.02));padding:70px 0}
+    .hero h1{font-family:Poppins, sans-serif;font-weight:700;color:var(--text);font-size:2.2rem}
+    .hero p.lead{font-size:1.05rem;color:#334155}
+
+    /* Sections */
+    .section{padding:48px 0}
+    .card-ghost{background:#fff;border-radius:14px;box-shadow:0 10px 30px rgba(15,23,42,0.06);padding:18px}
+
+    /* Products grid */
+    .product-img{height:180px;width:100%;object-fit:cover;border-radius:8px}
+
+    /* Process timeline */
+    .timeline{position:relative;padding-left:28px}
+    .timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--primary),var(--alt));border-radius:4px}
+    .timeline-item{position:relative;padding:12px 16px;margin-bottom:18px;background:#fff;border-radius:10px;box-shadow:0 8px 20px rgba(2,6,23,0.04)}
+    .timeline-item::before{content:'';position:absolute;left:-22px;top:18px;width:16px;height:16px;border-radius:50%;background:#fff;border:4px solid var(--primary)}
+
+    /* Footer */
+    footer{background:#0b1220;color:#cfe8db;padding:28px 0}
+
+    @media (max-width:768px){
+      .hero h1{font-size:1.5rem}
+    }
+
+    /* Accessibility focus */
+    a:focus,button:focus,input:focus,textarea:focus{outline:3px solid rgba(5,150,105,0.14);outline-offset:3px}
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Darshanik Apparels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process">Manufacturing Process</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why">Why Choose Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-3"><a class="btn btn-cta" href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" rel="noopener">Get Quote</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1>Premium B2B Apparel Manufacturing in Tirupur</h1>
+          <h2>"We bring your dream brand come True"</h2>
+          <p class="lead">International Quality | Local Expertise | Custom Solutions. We produce export-ready garments, private-label lines, and corporate uniforms with end-to-end support.</p>
+          <div class="mt-4 d-flex gap-2 flex-wrap">
+            <a class="btn btn-cta" href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" rel="noopener">Get Quote</a>
+            <a class="btn btn-outline-secondary" href="#products">View Products</a>
+          </div>
+
+          <div class="d-flex gap-3 mt-4">
+            <div class="card-ghost" style="width:140px;text-align:center">
+              <h4 style="color:var(--primary);margin:0">15+</h4>
+              <small>Years</small>
+            </div>
+            <div class="card-ghost" style="width:140px;text-align:center">
+              <h4 style="color:var(--primary);margin:0">200k</h4>
+              <small>Units / month</small>
+            </div>
+            <div class="card-ghost" style="width:140px;text-align:center">
+              <h4 style="color:var(--primary);margin:0">40+</h4>
+              <small>Clients</small>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="card-ghost">
+            <img src="logo.png" alt="factory" class="img-fluid rounded mb-3" loading="lazy">
+            <p class="mb-0 small">State-of-the-art lines for cutting, sewing, finishing and packing. Sample approvals and inline QA for export compliance.</p>
+            <h1>We always have 1:1 call for conformation of the Order!</h1>
+            <h4>For more details oriented from Client perspective!</h4>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 style="font-family:Poppins, sans-serif;color:var(--text)">Products</h2>
+          <small class="text-muted">Each product links to a product-specific quote form</small>
+        </div>
+
+        <div class="row g-4">
+          <!-- Men's T-shirts -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="cneck.png" alt="Men's T-shirt" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">Men's T-shirts</h6>
+              <p class="small text-muted mb-2">Regular fit, premium cotton, custom prints & embroidery</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+
+          <!-- Round Neck -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="rneck.png" alt="Round Neck T-shirt" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">Round Neck T-shirts</h6>
+              <p class="small text-muted mb-2">Multiple GSMs, reactive-dye options</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+
+          <!-- V-Neck -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="Vneck.png" alt="V-Neck" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">V-Neck T-shirts</h6>
+              <p class="small text-muted mb-2">Tailored fits and premium finishing</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+
+          <!-- Hoodies -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="hoodies.png" alt="Hoodie" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">Hoodies</h6>
+              <p class="small text-muted mb-2">Fleece and mixed fabrics, custom labels</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+
+          <!-- Sportswear -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="sportswear.png" alt="Sportswear" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">Sportswear</h6>
+              <p class="small text-muted mb-2">Performance fabrics, moisture-wicking</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+
+          <!-- Handkerchiefs -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="Handkercheif.png" alt="Handkerchiefs" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">Handkerchiefs</h6>
+              <p class="small text-muted mb-2">Custom prints and packaging</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+          <!-- kidswear-->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-3 h-100">
+              <img src="kids.png" alt="Kids Wear" class="product-img mb-2" loading="lazy">
+              <h6 class="mb-1">Kids Wear</h6>
+              <p class="small text-muted mb-2">Custom prints and packaging</p>
+              <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" target="_blank" class="btn btn-outline-primary btn-sm">Request Quote</a>
+            </div>
+          </div>
+
+          <!-- Women's Apparel, Kids, Leggings etc. (add similarly) -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 style="font-family:Poppins, sans-serif;color:var(--text)">About Us</h2>
+            <p>Darshanik Apparels has been operating from Tirupur — India’s textile manufacturing hub — delivering export-quality garments to international buyers and domestic brands. We provide design support, sampling, and full-scale production with transparent QA processes.</p>
+            <ul>
+              <li>Design to delivery: Tech-packs, sampling, production</li>
+              <li>Quality certifications available on request (GOTS / OEKO-TEX / ISO)</li>
+              <li>Flexible MOQs and competitive pricing</li>
+            </ul>
+            <a class="btn btn-outline-primary" href="#contact">Partnership Inquiry</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-ghost">
+              <h6>Facility Snapshot</h6>
+              <p class="small">Dedicated lines for different product categories, inline QC stations, and a trained workforce focused on consistent delivery.</p>
+              <ul class="small">
+                <li>Cutting & fabric inspection</li>
+                <li>Sewing & assembly</li>
+                <li>Finishing, packing & export documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section">
+      <div class="container">
+        <h2 style="font-family:Poppins, sans-serif;color:var(--text)">Manufacturing Process</h2>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="timeline">
+              <div class="timeline-item">
+                <h6>Design & Tech Pack</h6>
+                <p class="small">We convert designs into production-ready tech packs with grading and fabric specs.</p>
+              </div>
+              <div class="timeline-item">
+                <h6>Sampling & Approval</h6>
+                <p class="small">Sample creation, client feedback loop and final approval before bulk production.</p>
+              </div>
+              <div class="timeline-item">
+                <h6>Bulk Production</h6>
+                <p class="small">Dedicated lines and inline QA to ensure consistency across batches.</p>
+              </div>
+              <div class="timeline-item">
+                <h6>Finishing & Packing</h6>
+                <p class="small">Quality checks, labeling, and export packing as per client requirements.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-ghost">
+              <h6>Quality Control</h6>
+              <p class="small">Inline inspections, random audits, and third-party testing as required by international buyers.</p>
+              <h6 class="mt-3">Lead Times & MOQs</h6>
+              <p class="small">Typical lead time: 30–45 days for bulk orders. MOQ varies by product; contact us for specifics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="why" class="section bg-white">
+      <div class="container">
+        <h2 style="font-family:Poppins, sans-serif;color:var(--text)">Why Choose Us</h2>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <ul>
+              <li>Export-quality manufacturing and compliance support</li>
+              <li>Competitive pricing and flexible MOQs</li>
+              <li>Transparent production reporting and sample management</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="card-ghost">
+              <h6>Client Testimonials</h6>
+              <blockquote class="small mb-0">"Reliable partner — consistent quality and timely deliveries." — International Apparel Buyer</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 style="font-family:Poppins, sans-serif;color:var(--text)">Contact</h2>
+        <div class="row g-4 mt-3">
+          <div class="col-lg-6">
+            <div class="card-ghost">
+              <h6>General Inquiry</h6>
+              <p class="small">Use the form for product queries, partnerships, and export inquiries.</p>
+              <div class="d-grid gap-2">
+                <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" class="btn btn-outline-primary" target="_blank" rel="noopener">Open General Inquiry Form</a>
+                <a href="https://forms.gle/T1WYnEHjz1CCs3hW8" class="btn btn-outline-secondary" target="_blank" rel="noopener">Bulk Order Form</a>
+              </div>
+
+              <hr>
+              <p class="mb-1"><strong>Email:</strong> <a href="mailto:darshanikapparel@gmail.com">darshanikapparel@gmail.com</a></p>
+              <p class="mb-1"><strong>Phone / WhatsApp:</strong> +91 7550319258</p>
+              <p class="mb-0"><strong>Address:</strong> 3,balaji nagar, 2nd street karuvampalayam Tirupur, Tamil Nadu, India.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card-ghost">
+              <h6>Quick Contact</h6>
+              <form id="quickContact" aria-label="Quick contact form">
+                <div class="mb-2">
+                  <label class="form-label" for="qc-name">Name *</label>
+                  <input class="form-control" id="qc-name" name="name" required>
+                </div>
+                <div class="mb-2">
+                  <label class="form-label" for="qc-company">Company</label>
+                  <input class="form-control" id="qc-company" name="company">
+                </div>
+                <div class="mb-2">
+                  <label class="form-label" for="qc-email">Email *</label>
+                  <input type="email" class="form-control" id="qc-email" name="email" required>
+                </div>
+                <div class="mb-2">
+                  <label class="form-label" for="qc-message">Message *</label>
+                  <textarea class="form-control" id="qc-message" rows="3" required></textarea>
+                </div>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-cta" type="submit" href="https://forms.gle/T1WYnEHjz1CCs3hW8">Send</button>
+                  <button class="btn btn-outline-secondary" type="reset">Reset</button>
+                </div>
+                <small class="text-muted d-block mt-2">This will open the Google Form with prefilled fields for convenience.</small>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h6>Location</h6>
+          <div style="height:280px;border-radius:12px;overflow:hidden;background:#e9eef3;display:flex;align-items:center;justify-content:center;color:#64707a">Google Maps embed placeholder (Tirupur)</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container d-md-flex justify-content-between align-items-center">
+      <div>
+        <strong>Darshanik Apparels</strong>
+        <div class="small">Tirupur • B2B Apparel Manufacturing</div>
+      </div>
+      <div class="mt-2 mt-md-0 small">© <span id="year">2025</span> Darshanik Apparels • All rights reserved</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var href = this.getAttribute('href');
+        if(href.length>1 && document.querySelector(href)){
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      });
+    });
+
+    // Quick contact: open Google Form with prefilled params (replace entry IDs accordingly)
+    document.getElementById('quickContact').addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = encodeURIComponent(document.getElementById('qc-name').value);
+      var company = encodeURIComponent(document.getElementById('qc-company').value || '');
+      var email = encodeURIComponent(document.getElementById('qc-email').value);
+      var message = encodeURIComponent(document.getElementById('qc-message').value);
+
+      // Example prefill URL - replace YOUR_FORM_ID and entry.X with actual IDs from your Google Form
+      var prefill = 'https://docs.google.com/forms/d/e/YOUR_GENERAL_INQUIRY_FORM_ID/viewform?usp=pp_url';
+      prefill += '&entry.YOUR_NAME_ENTRY=' + name + '&entry.YOUR_COMPANY_ENTRY=' + company + '&entry.YOUR_EMAIL_ENTRY=' + email + '&entry.YOUR_MESSAGE_ENTRY=' + message;
+      window.open(prefill,'_blank','noopener');
+    });
+  </script>
+
+  <!-- Business schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Darshanik Apparels",
+    "url":"https://www.darshanikapparels.com",
+    "logo":"https://www.darshanikapparels.com/assets/images/logo.png",
+    "contactPoint":[{"@type":"ContactPoint","telephone":"+91-9876543210","contactType":"sales","areaServed":"IN"}],
+    "address":{"@type":"PostalAddress","addressLocality":"Tirupur","addressRegion":"Tamil Nadu","addressCountry":"IN"}
+  }
+  </script>
+
+</body>
+</html>
